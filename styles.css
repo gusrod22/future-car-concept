@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+h3,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+body{
+  font-size: 1.2rem;
+}
+main{
+  height: 100%;
+}
+.hero-canvas{
+  position: relative;
+  height: 100%;
+  background-image: url(images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 79% center;
+}
+header{
+  font-family: 'genos', sans-serif;
+}
+h1{
+  text-transform: uppercase;
+  position: absolute;
+  top: 3%;
+  left: 5%;
+}
+.main-content{
+  font-family: 'outfit', sans-serif;
+  text-align: center;
+}
+.title-header{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.model{
+  font-size: 3.7rem;
+}
+.catch{
+  font-size: 1.1rem;
+}
+.buttons{
+  width: 100%;
+  position: absolute;
+  bottom: 15%;
+  display: flex;
+  justify-content: space-around;
+}
+button{
+  background: none;
+  border-radius: 10px;
+  color: white;
+  padding: .7rem;
+}
